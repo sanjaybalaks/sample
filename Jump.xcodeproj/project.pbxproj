@@ -21,6 +21,7 @@
 		D593C1E818F1A7DA00B0C4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D593C1CA18F1A7D900B0C4C4 /* UIKit.framework */; };
 		D593C1F018F1A7DA00B0C4C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D593C1EE18F1A7DA00B0C4C4 /* InfoPlist.strings */; };
 		D593C1F218F1A7DA00B0C4C4 /* JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D593C1F118F1A7DA00B0C4C4 /* JumpTests.m */; };
+		D593C1FD18F1A80B00B0C4C4 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D593C1FC18F1A80B00B0C4C4 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D593C1ED18F1A7DA00B0C4C4 /* JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumpTests-Info.plist"; sourceTree = "<group>"; };
 		D593C1EF18F1A7DA00B0C4C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D593C1F118F1A7DA00B0C4C4 /* JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpTests.m; sourceTree = "<group>"; };
+		D593C1FB18F1A80B00B0C4C4 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		D593C1FC18F1A80B00B0C4C4 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				D593C1D518F1A7DA00B0C4C4 /* AppDelegate.h */,
 				D593C1D618F1A7DA00B0C4C4 /* AppDelegate.m */,
 				D593C1D818F1A7DA00B0C4C4 /* Main.storyboard */,
+				D593C1FB18F1A80B00B0C4C4 /* NextViewController.h */,
+				D593C1FC18F1A80B00B0C4C4 /* NextViewController.m */,
 				D593C1DB18F1A7DA00B0C4C4 /* ViewController.h */,
 				D593C1DC18F1A7DA00B0C4C4 /* ViewController.m */,
 				D593C1DE18F1A7DA00B0C4C4 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D593C1DD18F1A7DA00B0C4C4 /* ViewController.m in Sources */,
+				D593C1FD18F1A80B00B0C4C4 /* NextViewController.m in Sources */,
 				D593C1D718F1A7DA00B0C4C4 /* AppDelegate.m in Sources */,
 				D593C1D318F1A7D900B0C4C4 /* main.m in Sources */,
 			);

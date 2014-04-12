@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "NextViewController.h"
 
 @interface ViewController ()
 
+- (IBAction)tapped:(id)sender;
 @end
 
 @implementation ViewController
@@ -26,4 +28,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tapped:(id)sender {
+    //[self.navigationController pushViewController:controller animated:YES];
+    UIStoryboard *storyboard = self.storyboard;
+    NextViewController *svc = [storyboard instantiateViewControllerWithIdentifier:@"NextViewController"];
+    
+    // Configure the new view controller here.
+    
+ [self presentViewController:svc animated:YES completion:nil];
+    
+}
 @end
